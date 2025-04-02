@@ -1,0 +1,12 @@
+input[type="file"] {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="file"]:hover {
+    border-color: #007acc;
+  }
+  

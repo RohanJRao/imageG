@@ -1,0 +1,9 @@
+img {
+    border: 2px solid #28a745;
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
