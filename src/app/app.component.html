@@ -1,9 +1,5 @@
-<div class="container mx-auto p-4">
-  <h1 class="text-2xl font-bold text-center mb-6">{{ title }}</h1>
-
-  <app-image-uploader (fileSelected)="onImageSelected($event)"></app-image-uploader>
-  
-  <app-image-viewer [imageUrl]="originalImageUrl"></app-image-viewer>
-  
-  <app-result-viewer [resultUrl]="convertedImageUrl"></app-result-viewer>
+<div class="app-container">
+  <h1>Studio Ghibli Image Converter</h1>
+  <app-image-uploader (imageSelected)="onImageSelected($event)"></app-image-uploader>
+  <app-image-viewer [processedImageUrl]="processedImageUrl"></app-image-viewer>
 </div>

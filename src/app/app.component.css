@@ -9,3 +9,22 @@ h1 {
 img {
   margin: 10px 0;
 }
+.app-container {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}

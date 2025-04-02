@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./image-viewer.component.css']
 })
 export class ImageViewerComponent {
-  @Input() imageUrl: string | null = null;
+  @Input() processedImageUrl: string | null = null;
 }
