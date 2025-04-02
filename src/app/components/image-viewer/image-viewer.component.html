@@ -1,13 +1,6 @@
-<!-- <div *ngIf="imageUrl" class="flex justify-center items-center mb-4">
-    <img [src]="imageUrl" alt="Uploaded Image" class="max-w-xs rounded-lg shadow-md">
-  </div> -->
-  <div *ngIf="processedImageUrl" class="d-flex justify-content-center mt-4">
-    <div class="card" style="width: 18rem;">
-      <img [src]="processedImageUrl" class="card-img-top" alt="Processed Image">
-      <div class="card-body">
-        <p class="card-text">Studio Ghibli Style Image</p>
-      </div>
-    </div>
+<div *ngIf="processedImageUrl" class="card" style="width: 18rem;">
+  <img [src]="processedImageUrl" class="card-img-top" alt="Processed Image">
+  <div class="card-body">
+    <p class="card-text">Converted Studio Ghibli-style image</p>
   </div>
-  
-  
+</div>
